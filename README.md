@@ -1,5 +1,9 @@
 # API Testing Foundations
-This is the repository for the LinkedIn Learning course `API Testing Foundations`. The full course is available from [LinkedIn Learning][lil-course-url].
+This is the repository for the LinkedIn Learning course API Testing Foundations. The full course is available from [LinkedIn Learning][lil-course-url].
+
+![API Testing Foundations][lil-thumbnail-url] 
+
+The ability to quickly and effectively test APIs is a critical skill for software testers and QA engineers. In this intermediate-level course, instructor Dave Westerveld covers the basics of API testing, sharing how to work with several industry-standard tools for testing APIs at scale in an organization. After providing a primer on web services and important API terminology, Dave shows how to use Postman for some basic API exploration. He then goes over some basic approaches and methodologies used in testing GET, POST, PUT, and DELETE requests; discusses some of the details of performance and security testing; and more.
 
 ## Installing
 1. To use these exercise files, you must have the following installed:
@@ -67,8 +71,12 @@ You can then access the application at http://127.0.0.1:8000
 You can see documentation for the API at http://127.0.0.1:8000/docs
 
 
-[0]: # (Replace these placeholder URLs with actual course URLs)
+### Instructor
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+Dave Westerveld            
+
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/dave-westerveld).
+
+[lil-course-url]: https://www.linkedin.com/learning/api-testing-foundations-22763217?dApp=59033956&leis=LAA
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D4E0DAQGYSZSvOzrO-Q/learning-public-crop_675_1200/0/1697137417352?e=2147483647&v=beta&t=hR5AnoqA0zfb0uh7CP0_qCKanLmq2F6mIYE2z3KTCVs
 
