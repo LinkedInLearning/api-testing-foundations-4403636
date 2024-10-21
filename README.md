@@ -47,6 +47,18 @@ curl -sSL https://install.python-poetry.org | python3 -
 Once you have it installed, you can use it to install all the other package dependencies.
 
 ## Setup
+
+### Environment setup
+You need to set the `DATABASE_URL` environment variable to point to a database server.
+This application will run off of an in-memory database so you can set it like this at the command line:
+
+`export DATABASE_URL="sqlite+pysqlite:///./sql_db.db"` 
+
+or on Windows:
+
+`set DATABASE_URL="sqlite+pysqlite:///./sql_db.db"`
+
+### Installing
 With python 3.11 and poetry installed, you are ready to setup this application. Use poetry to install all the dependencies:
 
 ```bash
